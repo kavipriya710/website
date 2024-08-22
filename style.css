@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: black;
+    color: white; 
+    position: fixed;
+    width: 100%;
+    padding: 20px;
+}
+#cravings{
+    font-size: 35px;
+}
+
+h1,ul,li{
+    display: inline;
+}
+ul{
+    margin-left: 70%;
+    color:gray;
+    }
+li{
+    cursor: pointer;
+}    
+li:hover{
+    color: white;
+}
+input{
+    margin-top: 70px;
+    width: 60%;
+    padding: 15px;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+}
+.searchbar{
+    padding: 20px;
+    text-align: center;
+    
+}
+.box{
+    border-color: black;
+    border-width:2px;
+    border-style: solid;
+    width: 330px;
+    display: inline-block;
+    padding: 40px;
+    margin: 10px;
+    background-color: white;
+}
+.items{
+    text-align: center;
+    padding: 20px;
+
+}
+.box:hover{
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+.about{
+    text-align: center;
+    margin-top: 20px;
+    background-color: white;
+    color: black;
+}
+.contact{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: lightblue;
+}
+
